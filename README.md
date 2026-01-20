@@ -1,7 +1,7 @@
 # Attention
 
 If you're on macOS 12 some of the packages will fail to download the newest version from brew.
-You'll need to download an older one
+You'll need to download an older one. Haven't tested on a new machine yet /shrug
 
 # Dotfiles
 
