@@ -1,0 +1,27 @@
+# GitHub
+
+Host github.com
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_ed25519
+AddKeysToAgent yes
+UseKeychain yes
+
+# GitLab (if you use it)
+
+Host gitlab.com
+HostName gitlab.com
+User git
+IdentityFile ~/.ssh/id_ed25519
+
+# Example personal server
+
+# Host myserver
+
+# HostName example.com
+
+# User username
+
+# Port 22
+
+# IdentityFile ~/.ssh/id_ed25519

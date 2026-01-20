@@ -1,0 +1,44 @@
+{
+  "workbench.colorTheme": "Darcula",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "html", "typescriptreact"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  //moficationsIfAvailalbe takes too long
+  "editor.formatOnSaveMode": "file",
+  // "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 100,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+  // add cms to eslint working dirs
+  "eslint.workingDirectories": ["./cms"],
+  "window.zoomLevel": -1,
+  "window.titleBarStyle": "native",
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "workbench.reduceMotion": "off",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true,
+  },
+  "java.inlayHints.parameterNames.enabled": "none",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.viewSessions.orientation": "stacked",
+}
