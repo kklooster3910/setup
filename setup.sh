@@ -22,3 +22,5 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 cp vscode/settings.json ~/Library/Application\ Support/Code/User/
 
 echo "✅ Setup complete!"
+
+# TODO: add copilot adding to script for intelliJ
