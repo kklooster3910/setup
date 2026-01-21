@@ -18,7 +18,7 @@ My personal development environment setup for macOS.
 
 ## Fresh Machine Setup (Mac)
 
-### 1. Install Xcode Command Line Tools
+### 1. Setup Steps including xcode install
 
 ```bash
 xcode-select --install
